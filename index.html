@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Lift Cards">
+  <title>Lift Cards</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="home-page">
+  <header class="app-bar">
+    <a class="brand" href="index.html" aria-label="Lift Cards home">
+      <span class="brand-mark" aria-hidden="true">↔</span>
+      <span>Lift Cards</span>
+    </a>
+    <span class="offline-label">Offline ready</span>
+  </header>
+
+  <main class="home-content">
+    <section class="hero">
+      <p class="eyebrow">YOUR TRAINING</p>
+      <h1>Choose today’s workout</h1>
+      <p>Quick form references, your working weights, and no videos to load.</p>
+    </section>
+
+    <section class="workout-grid" aria-label="Available workouts">
+      <a class="workout-card barbell-card" href="barbell.html">
+        <span class="card-icon" aria-hidden="true">━●━</span>
+        <span class="card-kicker">UPPER BODY</span>
+        <strong>Barbell Workout</strong>
+        <span>6 exercises · 45–60 min</span>
+        <span class="exercise-preview">Bench press · Row · Overhead press · Arms</span>
+        <span class="open-workout">Open workout <span aria-hidden="true">→</span></span>
+      </a>
+
+      <a class="workout-card dumbbell-card" href="dumbbell.html">
+        <span class="card-icon" aria-hidden="true">●━●</span>
+        <span class="card-kicker">FULL BODY</span>
+        <strong>Dumbbells — Workout A</strong>
+        <span>10 exercises · 60–80 min</span>
+        <span class="exercise-preview">Presses · Raises · Squat · RDL · Calves</span>
+        <span class="open-workout">Open workout <span aria-hidden="true">→</span></span>
+      </a>
+    </section>
+
+    <aside class="install-card" id="install-help">
+      <span class="install-icon" aria-hidden="true">＋</span>
+      <div>
+        <strong>Add it to your iPhone</strong>
+        <p>Open this site in Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>.</p>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

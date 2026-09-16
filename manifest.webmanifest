@@ -1,0 +1,38 @@
+{
+  "id": "./",
+  "name": "Lift Cards — Barbell & Dumbbell Workouts",
+  "short_name": "Lift Cards",
+  "description": "Offline barbell and dumbbell workout references.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f1f5f9",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Barbell Workout",
+      "short_name": "Barbell",
+      "url": "./barbell.html"
+    },
+    {
+      "name": "Dumbbells — Workout A",
+      "short_name": "Dumbbells",
+      "url": "./dumbbell.html"
+    }
+  ]
+}
