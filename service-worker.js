@@ -1,4 +1,4 @@
-const CACHE_NAME = "lift-cards-v2";
+const CACHE_NAME = "lift-cards-v3";
 
 const APP_FILES = [
   "./",
@@ -44,7 +44,13 @@ const APP_FILES = [
   "./assets/dumbbell/dumbbell-romanian-deadlift-1.jpg",
   "./assets/dumbbell/dumbbell-romanian-deadlift-2.jpg",
   "./assets/dumbbell/dumbbell-calf-raise-1.jpg",
-  "./assets/dumbbell/dumbbell-calf-raise-2.jpg"
+  "./assets/dumbbell/dumbbell-calf-raise-2.jpg",
+  "./assets/complex/row-start.jpg",
+  "./assets/complex/row-end.jpg",
+  "./assets/complex/pushup-start.jpg",
+  "./assets/complex/pushup-end.jpg",
+  "./assets/complex/hammer-start.jpg",
+  "./assets/complex/hammer-end.jpg"
 ];
 
 self.addEventListener("install", (event) => {

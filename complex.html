@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Lift Cards">
-  <title>Simple Dumbbell Complex</title>
+  <title>Dumbbell 45/15</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -29,14 +29,14 @@
   </header>
 
   <main class="workout-content complex-workout">
-    <p class="eyebrow">UPPER BODY · SIMPLIFIED</p>
-    <h1>Simple Dumbbell Complex</h1>
-    <p class="workout-deck">60 minutes · 3 blocks · 12 movements total</p>
+    <p class="eyebrow">UPPER BODY · TIMED</p>
+    <h1>Dumbbell 45/15</h1>
+    <p class="workout-deck">60 minutes · 9 exercises</p>
 
     <div class="format-strip" aria-label="Workout format">
       <span><strong>45s</strong> work</span>
       <span><strong>15s</strong> rest</span>
-      <span><strong>4</strong> rounds</span>
+      <span><strong>5</strong> rounds</span>
     </div>
 
     <section class="interval-timer" data-interval-timer data-phase="ready" aria-label="45 second work and 15 second rest timer">
@@ -51,46 +51,47 @@
       </div>
     </section>
 
-    <section class="loading-guide">
-      <h2>Set up three weights</h2>
-      <div class="load-grid">
-        <div><strong>A · Medium/heavy</strong><span>Presses and rows</span></div>
-        <div><strong>B · Light</strong><span>Raises and rear delts</span></div>
-        <div><strong>C · Light/medium</strong><span>Arms and core</span></div>
-      </div>
-      <p>Choose each weight so you finish 45 seconds with about 2–3 clean reps left. Put the pairs beside you before starting.</p>
-    </section>
+    <div class="weight-strip"><span><strong>A</strong> Medium</span><span><strong>B</strong> Light</span><span><strong>C</strong> Light</span></div>
 
-    <section class="timeline-section warmup-section">
-      <div class="section-time">0:00–5:00</div>
-      <h2>Warm-up</h2>
-      <p class="section-rule">No timer—keep moving.</p>
-      <ul class="compact-list">
-        <li>Arm circles · 30 seconds each direction</li>
-        <li>Scapular push-ups · 10–15</li>
-        <li>Towel or band pull-aparts · 15–20</li>
-        <li>Light press and row · 10 each</li>
-      </ul>
+    <section class="mini-phase">
+      <strong>0:00–5:00 · Warm-up</strong>
+      <span>Arm circles · light press · light row</span>
     </section>
 
     <section class="complex-block block-a">
       <div class="block-heading">
         <div>
-          <span class="block-label">BLOCK A · MEDIUM/HEAVY</span>
+          <span class="block-label">BLOCK A · MEDIUM</span>
           <h2>Push + Pull</h2>
         </div>
-        <strong>5:00–21:00</strong>
+        <strong>5:00–20:00</strong>
       </div>
-      <p class="section-rule">Four exercises × four rounds. Do them in order.</p>
-      <ol class="exercise-list">
-        <li><strong>Dumbbell floor press</strong><span>Feet planted; elbows about 45°; pause lightly above the floor.</span></li>
-        <li><strong>Bent-over row, both arms</strong><span>Hinge, keep a neutral back, and pull toward your lower ribs.</span></li>
-        <li><strong>Push-ups</strong><span>Use the dumbbells as handles, or elevate your hands if form fades.</span></li>
-        <li><strong>Single-arm row</strong><span>20 seconds per side; support the free hand and keep hips square.</span></li>
-      </ol>
+      <div class="exercise-links">
+        <details class="exercise-link">
+          <summary><span class="exercise-number">1</span><strong>Dumbbell bench press</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/dumbbell/dumbbell-bench-press-2.jpg" alt="Dumbbell bench press start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/dumbbell/dumbbell-bench-press-1.jpg" alt="Dumbbell bench press bottom position"></figure>
+          </div>
+        </details>
+        <details class="exercise-link">
+          <summary><span class="exercise-number">2</span><strong>One-arm row <small>20s / side</small></strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/complex/row-start.jpg" alt="One-arm dumbbell row start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/complex/row-end.jpg" alt="One-arm dumbbell row end position"></figure>
+          </div>
+        </details>
+        <details class="exercise-link">
+          <summary><span class="exercise-number">3</span><strong>Push-ups</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/complex/pushup-start.jpg" alt="Push-up start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/complex/pushup-end.jpg" alt="Push-up bottom position"></figure>
+          </div>
+        </details>
+      </div>
     </section>
 
-    <div class="break-card"><strong>21:00–22:00</strong><span>Rest · drink water · switch to the light pair</span></div>
+    <div class="break-card"><strong>20:00–21:00</strong><span>Rest · switch to light weights</span></div>
 
     <section class="complex-block block-b">
       <div class="block-heading">
@@ -98,55 +99,75 @@
           <span class="block-label">BLOCK B · LIGHT</span>
           <h2>Shoulders + Posture</h2>
         </div>
-        <strong>22:00–38:00</strong>
+        <strong>21:00–36:00</strong>
       </div>
-      <p class="section-rule">Use the same light pair for the full block.</p>
-      <ol class="exercise-list">
-        <li><strong>Standing overhead press</strong><span>Ribs down; squeeze your glutes; do not lean backward.</span></li>
-        <li><strong>Lateral raise</strong><span>Lead with the elbows and stop near shoulder height.</span></li>
-        <li><strong>Rear delt fly</strong><span>Hinge forward, keep soft elbows, and avoid shrugging.</span></li>
-        <li><strong>Farmer march</strong><span>Stand tall and march slowly without leaning side to side.</span></li>
-      </ol>
+      <div class="exercise-links">
+        <details class="exercise-link">
+          <summary><span class="exercise-number">1</span><strong>Overhead press</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/dumbbell/dumbbell-shoulder-press-1.jpg" alt="Dumbbell overhead press start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/dumbbell/dumbbell-shoulder-press-2.jpg" alt="Dumbbell overhead press end position"></figure>
+          </div>
+        </details>
+        <details class="exercise-link">
+          <summary><span class="exercise-number">2</span><strong>Lateral raise</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/dumbbell/dumbbell-lateral-raise-1.jpg" alt="Dumbbell lateral raise start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/dumbbell/dumbbell-lateral-raise-2.jpg" alt="Dumbbell lateral raise end position"></figure>
+          </div>
+        </details>
+        <details class="exercise-link">
+          <summary><span class="exercise-number">3</span><strong>Rear delt fly</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/dumbbell/dumbbell-reverse-fly-1.jpg" alt="Rear delt fly start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/dumbbell/dumbbell-reverse-fly-2.jpg" alt="Rear delt fly end position"></figure>
+          </div>
+        </details>
+      </div>
     </section>
 
-    <div class="break-card"><strong>38:00–39:00</strong><span>Rest · switch to your arm weight</span></div>
+    <div class="break-card"><strong>36:00–37:00</strong><span>Rest · keep light weights</span></div>
 
     <section class="complex-block block-c">
       <div class="block-heading">
         <div>
           <span class="block-label">BLOCK C · LIGHT/MEDIUM</span>
-          <h2>Arms + Core</h2>
+          <h2>Arms + Chest</h2>
         </div>
-        <strong>39:00–55:00</strong>
+        <strong>37:00–52:00</strong>
       </div>
-      <p class="section-rule">Stay controlled; this is a finisher, not a max-effort block.</p>
-      <ol class="exercise-list">
-        <li><strong>Hammer curl</strong><span>Palms face inward; keep elbows beside your ribs.</span></li>
-        <li><strong>Overhead triceps extension</strong><span>Hold one dumbbell with both hands and keep elbows pointing forward.</span></li>
-        <li><strong>Close-grip floor press</strong><span>Keep dumbbells close together and elbows near your torso.</span></li>
-        <li><strong>Dead bug with dumbbell press</strong><span>Press one light dumbbell over your chest while alternating legs; keep your low back down.</span></li>
-      </ol>
+      <div class="exercise-links">
+        <details class="exercise-link">
+          <summary><span class="exercise-number">1</span><strong>Hammer curl</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/complex/hammer-start.jpg" alt="Hammer curl start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/complex/hammer-end.jpg" alt="Hammer curl end position"></figure>
+          </div>
+        </details>
+        <details class="exercise-link">
+          <summary><span class="exercise-number">2</span><strong>Triceps extension</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/dumbbell/dumbbell-tricep-extension-1.jpg" alt="Overhead triceps extension lowered position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/dumbbell/dumbbell-tricep-extension-2.jpg" alt="Overhead triceps extension raised position"></figure>
+          </div>
+        </details>
+        <details class="exercise-link">
+          <summary><span class="exercise-number">3</span><strong>Dumbbell pullover</strong><span class="picture-link">2 pictures</span></summary>
+          <div class="position-grid">
+            <figure><figcaption>START</figcaption><img src="assets/dumbbell/dumbbell-pullover-1.jpg" alt="Dumbbell pullover start position"></figure>
+            <figure><figcaption>END</figcaption><img src="assets/dumbbell/dumbbell-pullover-2.jpg" alt="Dumbbell pullover end position"></figure>
+          </div>
+        </details>
+      </div>
     </section>
 
-    <section class="timeline-section cooldown-section">
-      <div class="section-time">55:00–60:00</div>
-      <h2>Cool-down</h2>
-      <ul class="compact-list">
-        <li>Chest stretch · 45 seconds per side</li>
-        <li>Child’s pose with lat reach · 45 seconds per side</li>
-        <li>Cross-body shoulder stretch · 30 seconds per side</li>
-        <li>Wrist and forearm stretch · 30 seconds per side</li>
-      </ul>
+    <section class="mini-phase">
+      <strong>52:00–60:00 · Cool-down</strong>
+      <span>Chest · shoulders · lats · wrists</span>
     </section>
 
-    <details class="workout-notes">
-      <summary>Progression and safety notes</summary>
-      <div>
-        <p>Run this workout at most twice weekly, with at least 48 hours between sessions.</p>
-        <p>First add clean reps within each 45-second interval. When all four rounds feel controlled, increase the dumbbell weight by the smallest available step.</p>
-        <p>If your back starts rounding or your shoulders lose position, reduce the weight instead of grinding through the interval. Stop for sharp or unusual pain.</p>
-      </div>
-    </details>
+    <p class="compact-safety">Keep 2–3 reps in reserve. Stop for sharp pain.</p>
+    <p class="image-credit">Exercise diagrams: <a href="https://strengthlevel.com/exercises" target="_blank" rel="noopener">Strength Level</a>.</p>
 
     <a class="back-to-top" href="#top">↑ Back to top</a>
   </main>
