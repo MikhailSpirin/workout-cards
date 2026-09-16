@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Lift Cards">
+  <title>Simple Dumbbell Complex</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+  <script src="interval-timer.js" defer></script>
+</head>
+<body id="top" class="workout-page" data-page="complex">
+  <header class="app-bar">
+    <a class="brand" href="index.html" aria-label="Lift Cards home">
+      <span class="brand-mark" aria-hidden="true">↔</span>
+      <span>Lift Cards</span>
+    </a>
+    <nav class="workout-switcher" aria-label="Workouts">
+      <a class="mobile-home" href="index.html">Home</a>
+      <a href="barbell.html" data-page-link="barbell">Barbell</a>
+      <a href="dumbbell.html" data-page-link="dumbbell">DB A</a>
+      <a href="complex.html" data-page-link="complex">Complex</a>
+    </nav>
+  </header>
+
+  <main class="workout-content complex-workout">
+    <p class="eyebrow">UPPER BODY · SIMPLIFIED</p>
+    <h1>Simple Dumbbell Complex</h1>
+    <p class="workout-deck">60 minutes · 3 blocks · 12 movements total</p>
+
+    <div class="format-strip" aria-label="Workout format">
+      <span><strong>45s</strong> work</span>
+      <span><strong>15s</strong> rest</span>
+      <span><strong>4</strong> rounds</span>
+    </div>
+
+    <section class="interval-timer" data-interval-timer data-phase="ready" aria-label="45 second work and 15 second rest timer">
+      <div class="timer-readout" aria-live="polite">
+        <span data-timer-status>READY</span>
+        <strong data-timer-display>0:45</strong>
+        <small>Intervals completed: <span data-timer-count>0</span></small>
+      </div>
+      <div class="timer-actions">
+        <button type="button" data-timer-toggle>Start</button>
+        <button type="button" class="timer-reset" data-timer-reset>Reset</button>
+      </div>
+    </section>
+
+    <section class="loading-guide">
+      <h2>Set up three weights</h2>
+      <div class="load-grid">
+        <div><strong>A · Medium/heavy</strong><span>Presses and rows</span></div>
+        <div><strong>B · Light</strong><span>Raises and rear delts</span></div>
+        <div><strong>C · Light/medium</strong><span>Arms and core</span></div>
+      </div>
+      <p>Choose each weight so you finish 45 seconds with about 2–3 clean reps left. Put the pairs beside you before starting.</p>
+    </section>
+
+    <section class="timeline-section warmup-section">
+      <div class="section-time">0:00–5:00</div>
+      <h2>Warm-up</h2>
+      <p class="section-rule">No timer—keep moving.</p>
+      <ul class="compact-list">
+        <li>Arm circles · 30 seconds each direction</li>
+        <li>Scapular push-ups · 10–15</li>
+        <li>Towel or band pull-aparts · 15–20</li>
+        <li>Light press and row · 10 each</li>
+      </ul>
+    </section>
+
+    <section class="complex-block block-a">
+      <div class="block-heading">
+        <div>
+          <span class="block-label">BLOCK A · MEDIUM/HEAVY</span>
+          <h2>Push + Pull</h2>
+        </div>
+        <strong>5:00–21:00</strong>
+      </div>
+      <p class="section-rule">Four exercises × four rounds. Do them in order.</p>
+      <ol class="exercise-list">
+        <li><strong>Dumbbell floor press</strong><span>Feet planted; elbows about 45°; pause lightly above the floor.</span></li>
+        <li><strong>Bent-over row, both arms</strong><span>Hinge, keep a neutral back, and pull toward your lower ribs.</span></li>
+        <li><strong>Push-ups</strong><span>Use the dumbbells as handles, or elevate your hands if form fades.</span></li>
+        <li><strong>Single-arm row</strong><span>20 seconds per side; support the free hand and keep hips square.</span></li>
+      </ol>
+    </section>
+
+    <div class="break-card"><strong>21:00–22:00</strong><span>Rest · drink water · switch to the light pair</span></div>
+
+    <section class="complex-block block-b">
+      <div class="block-heading">
+        <div>
+          <span class="block-label">BLOCK B · LIGHT</span>
+          <h2>Shoulders + Posture</h2>
+        </div>
+        <strong>22:00–38:00</strong>
+      </div>
+      <p class="section-rule">Use the same light pair for the full block.</p>
+      <ol class="exercise-list">
+        <li><strong>Standing overhead press</strong><span>Ribs down; squeeze your glutes; do not lean backward.</span></li>
+        <li><strong>Lateral raise</strong><span>Lead with the elbows and stop near shoulder height.</span></li>
+        <li><strong>Rear delt fly</strong><span>Hinge forward, keep soft elbows, and avoid shrugging.</span></li>
+        <li><strong>Farmer march</strong><span>Stand tall and march slowly without leaning side to side.</span></li>
+      </ol>
+    </section>
+
+    <div class="break-card"><strong>38:00–39:00</strong><span>Rest · switch to your arm weight</span></div>
+
+    <section class="complex-block block-c">
+      <div class="block-heading">
+        <div>
+          <span class="block-label">BLOCK C · LIGHT/MEDIUM</span>
+          <h2>Arms + Core</h2>
+        </div>
+        <strong>39:00–55:00</strong>
+      </div>
+      <p class="section-rule">Stay controlled; this is a finisher, not a max-effort block.</p>
+      <ol class="exercise-list">
+        <li><strong>Hammer curl</strong><span>Palms face inward; keep elbows beside your ribs.</span></li>
+        <li><strong>Overhead triceps extension</strong><span>Hold one dumbbell with both hands and keep elbows pointing forward.</span></li>
+        <li><strong>Close-grip floor press</strong><span>Keep dumbbells close together and elbows near your torso.</span></li>
+        <li><strong>Dead bug with dumbbell press</strong><span>Press one light dumbbell over your chest while alternating legs; keep your low back down.</span></li>
+      </ol>
+    </section>
+
+    <section class="timeline-section cooldown-section">
+      <div class="section-time">55:00–60:00</div>
+      <h2>Cool-down</h2>
+      <ul class="compact-list">
+        <li>Chest stretch · 45 seconds per side</li>
+        <li>Child’s pose with lat reach · 45 seconds per side</li>
+        <li>Cross-body shoulder stretch · 30 seconds per side</li>
+        <li>Wrist and forearm stretch · 30 seconds per side</li>
+      </ul>
+    </section>
+
+    <details class="workout-notes">
+      <summary>Progression and safety notes</summary>
+      <div>
+        <p>Run this workout at most twice weekly, with at least 48 hours between sessions.</p>
+        <p>First add clean reps within each 45-second interval. When all four rounds feel controlled, increase the dumbbell weight by the smallest available step.</p>
+        <p>If your back starts rounding or your shoulders lose position, reduce the weight instead of grinding through the interval. Stop for sharp or unusual pain.</p>
+      </div>
+    </details>
+
+    <a class="back-to-top" href="#top">↑ Back to top</a>
+  </main>
+</body>
+</html>

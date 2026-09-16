@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Lift Cards — Barbell & Dumbbell Workouts",
+  "name": "Lift Cards — Workout Guides",
   "short_name": "Lift Cards",
-  "description": "Offline barbell and dumbbell workout references.",
+  "description": "Offline barbell and dumbbell workout guides with an interval timer.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -33,6 +33,11 @@
       "name": "Dumbbells — Workout A",
       "short_name": "Dumbbells",
       "url": "./dumbbell.html"
+    },
+    {
+      "name": "Simple Dumbbell Complex",
+      "short_name": "Complex",
+      "url": "./complex.html"
     }
   ]
 }

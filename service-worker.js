@@ -1,12 +1,14 @@
-const CACHE_NAME = "lift-cards-v1";
+const CACHE_NAME = "lift-cards-v2";
 
 const APP_FILES = [
   "./",
   "./index.html",
   "./barbell.html",
   "./dumbbell.html",
+  "./complex.html",
   "./styles.css",
   "./app.js",
+  "./interval-timer.js",
   "./manifest.webmanifest",
   "./icons/icon-192.png",
   "./icons/icon-512.png",
