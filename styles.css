@@ -156,6 +156,25 @@ a {
   background: linear-gradient(140deg, #065f46, #0d9488);
 }
 
+.pull-card {
+  background: linear-gradient(140deg, #312e81, #7c3aed);
+}
+
+.workout-card > .optional-badge {
+  position: absolute;
+  z-index: 2;
+  top: 18px;
+  right: 18px;
+  padding: 6px 9px;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+}
+
 .timer-card-icon {
   display: inline-flex;
   padding: 7px 10px;
@@ -766,6 +785,73 @@ a {
   font-size: 11px;
 }
 
+.pull-core-workout > .eyebrow {
+  margin: 8px 0 8px;
+  color: #6d28d9;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.pull-core-workout > h1 {
+  margin: 0 0 7px;
+  font-size: 34px;
+}
+
+.page-badge {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 0 10px;
+  color: #5b21b6;
+  background: #ede9fe;
+  border: 1px solid #ddd6fe;
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+}
+
+.equipment-note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 22px;
+  padding: 14px 16px;
+  color: #4c1d95;
+  background: #f5f3ff;
+  border: 1px solid #ddd6fe;
+  border-radius: 13px;
+}
+
+.equipment-note strong {
+  flex: 0 0 auto;
+  font-size: 13px;
+}
+
+.equipment-note span {
+  font-size: 13px;
+}
+
+.pull-routine {
+  margin-top: 22px;
+  border-top-color: #7c3aed;
+}
+
+.exercise-explanation {
+  margin: 0;
+  padding: 0 16px 15px 61px;
+  color: var(--muted);
+  background: #f8fafc;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.exercise-explanation strong {
+  color: var(--ink);
+  font-size: inherit;
+}
+
 .break-card {
   display: flex;
   align-items: center;
@@ -818,9 +904,9 @@ a {
     padding-top: 55px;
   }
 
-  .complex-card {
-    grid-column: 1 / -1;
-    min-height: 220px;
+  .complex-card,
+  .pull-card {
+    min-height: 250px;
   }
 }
 
@@ -927,6 +1013,17 @@ a {
 
   .mini-phase span {
     text-align: left;
+  }
+
+  .equipment-note {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .exercise-explanation {
+    padding-right: 12px;
+    padding-left: 57px;
   }
 }
 

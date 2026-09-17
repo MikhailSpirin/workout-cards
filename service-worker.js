@@ -1,4 +1,4 @@
-const CACHE_NAME = "lift-cards-v3";
+const CACHE_NAME = "lift-cards-v4";
 
 const APP_FILES = [
   "./",
@@ -6,6 +6,7 @@ const APP_FILES = [
   "./barbell.html",
   "./dumbbell.html",
   "./complex.html",
+  "./pull-core.html",
   "./styles.css",
   "./app.js",
   "./interval-timer.js",
@@ -50,7 +51,15 @@ const APP_FILES = [
   "./assets/complex/pushup-start.jpg",
   "./assets/complex/pushup-end.jpg",
   "./assets/complex/hammer-start.jpg",
-  "./assets/complex/hammer-end.jpg"
+  "./assets/complex/hammer-end.jpg",
+  "./assets/pull-core/pull-ups-1.jpg",
+  "./assets/pull-core/pull-ups-2.jpg",
+  "./assets/pull-core/face-pull-1.jpg",
+  "./assets/pull-core/face-pull-2.jpg",
+  "./assets/pull-core/farmers-walk-1.jpg",
+  "./assets/pull-core/farmers-walk-2.jpg",
+  "./assets/pull-core/dead-bug-1.jpg",
+  "./assets/pull-core/dead-bug-2.jpg"
 ];
 
 self.addEventListener("install", (event) => {
