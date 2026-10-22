@@ -1,4 +1,4 @@
-const CACHE_NAME = "lift-cards-v5";
+const CACHE_NAME = "lift-cards-v6";
 
 const APP_FILES = [
   "./",
@@ -8,6 +8,12 @@ const APP_FILES = [
   "./complex.html",
   "./pull-core.html",
   "./crossfit.html",
+  "./crossfit-hour-1.html",
+  "./crossfit-hour-2.html",
+  "./crossfit-hour-3.html",
+  "./crossfit-hour-4.html",
+  "./crossfit-hour-5.html",
+  "./crossfit-hour-6.html",
   "./styles.css",
   "./app.js",
   "./interval-timer.js",

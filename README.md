@@ -6,6 +6,7 @@ Offline-friendly iPhone web app containing:
 - Dumbbells — Workout A
 - Simple Dumbbell Complex with a 45/15 interval timer
 - 50-minute medium-intensity CrossFit workout
+- Six 60-minute medium-intensity CrossFit sessions using the full gym setup
 
 ## Preview locally
 
