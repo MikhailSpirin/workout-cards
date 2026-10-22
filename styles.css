@@ -160,6 +160,10 @@ a {
   background: linear-gradient(140deg, #312e81, #7c3aed);
 }
 
+.crossfit-card {
+  background: linear-gradient(140deg, #9a3412, #dc2626);
+}
+
 .workout-card > .optional-badge {
   position: absolute;
   z-index: 2;
@@ -694,6 +698,25 @@ a {
   cursor: pointer;
   list-style: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+.workout-movement {
+  display: grid;
+  min-height: 62px;
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-items: center;
+  gap: 11px;
+  padding: 10px 16px;
+}
+
+.block-note {
+  margin: 0;
+  padding: 14px 18px 17px;
+  color: var(--muted);
+  background: #f8fafc;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  line-height: 1.5;
 }
 
 .exercise-link summary::-webkit-details-marker {

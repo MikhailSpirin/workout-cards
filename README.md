@@ -5,6 +5,7 @@ Offline-friendly iPhone web app containing:
 - Upper-Body Barbell Workout
 - Dumbbells — Workout A
 - Simple Dumbbell Complex with a 45/15 interval timer
+- 50-minute medium-intensity CrossFit workout
 
 ## Preview locally
 
