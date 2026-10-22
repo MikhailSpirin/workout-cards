@@ -778,6 +778,18 @@ a {
   border-top: 1px solid var(--line);
 }
 
+.position-grid.single-position {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.position-grid.single-position img {
+  max-width: 400px;
+}
+
+.position-grid.technique-strip img {
+  max-width: 720px;
+}
+
 .position-grid figure {
   margin: 0;
 }

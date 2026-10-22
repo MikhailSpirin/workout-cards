@@ -1,4 +1,4 @@
-const CACHE_NAME = "lift-cards-v6";
+const CACHE_NAME = "lift-cards-v7";
 
 const APP_FILES = [
   "./",
@@ -66,7 +66,24 @@ const APP_FILES = [
   "./assets/pull-core/farmers-walk-1.jpg",
   "./assets/pull-core/farmers-walk-2.jpg",
   "./assets/pull-core/dead-bug-1.jpg",
-  "./assets/pull-core/dead-bug-2.jpg"
+  "./assets/pull-core/dead-bug-2.jpg",
+  "./assets/crossfit/deadlift.jpg",
+  "./assets/crossfit/hang-power-clean.jpg",
+  "./assets/crossfit/power-clean.jpg",
+  "./assets/crossfit/front-squat.jpg",
+  "./assets/crossfit/push-press.jpg",
+  "./assets/crossfit/thruster.jpg",
+  "./assets/crossfit/step-up.jpg",
+  "./assets/crossfit/kettlebell-swing.jpg",
+  "./assets/crossfit/kettlebell-clean-and-press.jpg",
+  "./assets/crossfit/goblet-squat.jpg",
+  "./assets/crossfit/dumbbell-deadlift.jpg",
+  "./assets/crossfit/dumbbell-clean.jpg",
+  "./assets/crossfit/dumbbell-snatch.jpg",
+  "./assets/crossfit/dumbbell-push-press.jpg",
+  "./assets/crossfit/reverse-lunge.jpg",
+  "./assets/crossfit/rowing-technique.jpg",
+  "./assets/crossfit/jump-rope-technique.jpg"
 ];
 
 self.addEventListener("install", (event) => {
